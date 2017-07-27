@@ -1,4 +1,4 @@
-/*-------  共通のCSS  --------*/
+/*------- 共通のCSS --------*/
 html, body,
 ul, ol, li,
 h1, h2, h3, h4, h5, h6, p,
@@ -64,8 +64,7 @@ h4, h5 {
   background: #f4f4f4;
 }
 
-/*-------  header  --------*/
-
+/*------- header --------*/
 header {
   height: 50px;
   position: fixed;
@@ -105,4 +104,59 @@ header {
 .header-menu-right a:hover {
   color: #0dc0c0;
   transition: color .3s;
+}
+
+/*------- top content --------*/
+.top-section {
+  margin: 0 auto;
+  text-align: center;
+  color: #fff;
+  background-image: url("top.jpg");
+  background-size: cover;
+}
+
+.inner-bg {
+  padding-top: 200px;
+  padding-bottom: 130px;
+  /*background-color: rgba(0, 0, 0, 0.6);*/
+  background-color: rgba(86, 82, 97, 0.6);
+}
+
+.top-description {
+  margin-bottom: 20px;
+}
+
+.top-description h2 {
+  font-size: 48px;
+  margin-bottom: 30px;
+  font-weight: 400;
+}
+
+.top-description p {
+  color: rgba(255, 255, 255, 0.8);
+  font-size: 18px;
+}
+
+.btn {
+  display: inline-block;
+  padding: 10px 20px;
+  margin: 20px;
+  font-weight: 600;
+  font-size: 18px;
+  cursor: pointer;
+  transition: all .3s;
+}
+
+.btn:hover {
+  color: #fff;
+}
+
+.btn-top-white {
+  background: rgba(250, 250, 250, 0.06);
+  border: 1px solid rgba(250, 250, 250, 0.15);
+  color: rgba(250, 250, 250, 0.9);
+}
+
+.btn-top-white:hover {
+  border: 1px solid rgba(250, 250, 250, 0.8);
 }
